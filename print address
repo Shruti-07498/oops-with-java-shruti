@@ -1,0 +1,17 @@
+public class AddressPrinter {
+    public static void main(String[] args) {
+        // i) Using a single print with newline characters
+        System.out.print(
+            "shruti singh\n" 
+            "baghpat, uttarpradesh 250601\n" +
+            "India\n"
+        );
+
+        System.out.println(); 
+
+        // ii) Using multiple println statements
+        System.out.println("shruti singh")
+        System.out.println("Baghpat, uttarpradesh 250601");
+        System.out.println("India");
+    }
+}

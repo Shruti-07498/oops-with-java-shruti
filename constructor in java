@@ -1,0 +1,11 @@
+class geeks {
+    geeks()
+    {
+        System.out.println("constructor called");
+    }
+    public static void main (String[]args)
+    {
+        geeks geek=new geeks();
+        
+    }
+}
